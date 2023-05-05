@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.2 on win32)" generated="20230505 11:30:42.694" rpa="false" schemaversion="3">
+<suite id="s1" name="Testes" source="C:\Users\duduz\Desktop\robot-framework\testes">
+<suite id="s1-s1" name="Estrutura" source="C:\Users\duduz\Desktop\robot-framework\testes\estrutura.robot">
+<test id="s1-s1-t1" name="Cenário 1: Teste de abrir site google" line="20">
+<kw name="abrir site do google">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230505 11:30:43.125" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20230505 11:30:43.123" endtime="20230505 11:30:46.025"/>
+</kw>
+<status status="PASS" starttime="20230505 11:30:43.122" endtime="20230505 11:30:46.025"/>
+</kw>
+<kw name="fechar navegador">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230505 11:30:46.031" endtime="20230505 11:30:48.323"/>
+</kw>
+<status status="PASS" starttime="20230505 11:30:46.030" endtime="20230505 11:30:48.324"/>
+</kw>
+<tag>regressivo</tag>
+<status status="PASS" starttime="20230505 11:30:43.120" endtime="20230505 11:30:48.325"/>
+</test>
+<status status="PASS" starttime="20230505 11:30:42.739" endtime="20230505 11:30:48.330"/>
+</suite>
+<status status="PASS" starttime="20230505 11:30:42.696" endtime="20230505 11:30:48.337"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regressivo</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testes">Testes</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Estrutura">Testes.Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
